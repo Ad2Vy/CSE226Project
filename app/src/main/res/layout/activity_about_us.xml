@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AboutUs">
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABOUT US"
+        android:textSize="30dp"
+        android:layout_margin="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_about_us"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Lorem ipsum dolor sit amet, in perpetua vituperatoribus per. An pri falli animal, viderer copiosae menandri ea est. Pri molestie maluisset signiferumque cu. Te mea diam duis indoctum, eos ea nobis copiosae, mucius legendos his ex.Habemus singulis moderatius et sed. Ea mei theophrastus complectitur. Vis ne vidit ludus ponderum, duo deserunt quaerendum ad, sint elit legimus mel eu. Mei mutat fabulas id. In natum lorem quo. Nam quod tacimates aliquando et, an reque invidunt interesset cum, meis natum constituto pro ea.Vis ne fugit democritum, pro sonet gloriatur in. Dicat accommodare no mea, et fugit commune detracto vim. Ne corpora fabellas ullamcorper duo, aliquip utroque qui ei. Nec ne ullum everti definitiones, te autem pertinacia sea, in partem nostro discere est. Sumo platonem neglegentur duo at.Has agam clita principes in. Diceret definiebas temporibus vix an, labores ceteros et per. Brute laoreet prodesset ne eum. Cu nec maiestatis constituto. No eam feugait honestatis. Ne saperet deleniti sed."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/thanku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THANK YOU FOR READING"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
